@@ -8,39 +8,121 @@
 </head>
 
 <body>
-  <header class="header">
-    <nav class="navbar">
-      <a href="#logo" class="nav-logo">Tails</a>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Spaces</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Products</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Showrooms</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Company</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Media</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Contact</a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navbar">
+        <a href="#logo" class="nav-logo">Tails</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Spaces</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Showrooms</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Company</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Media</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger" alt="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="promo">
+      <div class="promo-box">
+        <div class="promo-box-left">
+          <div class="promo-left-item">
+            <div class="promo-left-item__title">
+              New generation ceramic tile
+            </div>
+            <div class="promo-left-item__desc">
+              Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat.
+              Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit
+              aliquet at. Magna nam platea justo.
+            </div>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+        <div class="promo-box-right">
+          <img src="/src/assets/photos/promo.svg" alt="promo">
+        </div>
       </div>
-    </nav>
-  </header>
+    </section>
+  </div>
+
+  <section class="collections">
+    <div class="collections__title">Featured Collection</div>
+    <!--Slider by Splide-->
+
+    <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+      <div class="splide__track">
+        <ul class="slides splide__list">
+          <li class="collections-item splide__slide">
+            <img src="/src/assets/photos/colections/boxes.svg" alt="boxes">
+            <div class="collections-item__title">Air Insulated Switchgear</div>
+            <div class="collections-item__desc">Ante mus blandit sapien sociosqu per consequat ad. Aenean habitasse
+              interdum letius lobortis primis tortor.</div>
+            <button class="collections-item__btn">View Collection</button>
+          </li>
+
+          <li class="collections-item splide__slide">
+            <img src="/src/assets/photos/colections/switcher.svg" alt="switcher">
+            <div class="collections-item__title">Mira Switches</div>
+            <div class="collections-item__desc">Ante mus blandit sapien sociosqu per consequat ad. Aenean habitasse
+              interdum letius lobortis primis tortor.</div>
+            <button class="collections-item__btn">View Collection</button>
+          </li>
+
+          <li class="collections-item splide__slide">
+            <img src="/src/assets/photos/colections/transformator.svg" alt="transformator">
+            <div class="collections-item__title">Transformers & Package Substations</div>
+            <div class="collections-item__desc">Ante mus blandit sapien sociosqu per consequat ad. Aenean habitasse
+              interdum letius lobortis primis tortor.</div>
+            <button class="collections-item__btn">View Collection</button>
+          </li>
+          <li class="collections-item splide__slide">
+            <img src="/src/assets/photos/colections/boxes.svg" alt="boxes">
+            <div class="collections-item__title">Air Insulated Switchgear</div>
+            <div class="collections-item__desc">Ante mus blandit sapien sociosqu per consequat ad. Aenean habitasse
+              interdum letius lobortis primis tortor.</div>
+            <button class="collections-item__btn">View Collection</button>
+          </li>
+
+          <li class="collections-item splide__slide">
+            <img src="/src/assets/photos/colections/switcher.svg" alt="switcher">
+            <div class="collections-item__title">Mira Switches</div>
+            <div class="collections-item__desc">Ante mus blandit sapien sociosqu per consequat ad. Aenean habitasse
+              interdum letius lobortis primis tortor.</div>
+            <button class="collections-item__btn">View Collection</button>
+          </li>
+
+          <li class="collections-item splide__slide">
+            <img src="/src/assets/photos/colections/transformator.svg" alt="transformator">
+            <div class="collections-item__title">Transformers & Package Substations</div>
+            <div class="collections-item__desc">Ante mus blandit sapien sociosqu per consequat ad. Aenean habitasse
+              interdum letius lobortis primis tortor.</div>
+            <button class="collections-item__btn">View Collection</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <script type="module" src="./src/js/main.js"></script>
 </body>
 
