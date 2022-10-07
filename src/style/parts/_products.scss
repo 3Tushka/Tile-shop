@@ -1,0 +1,94 @@
+.products {
+    margin-top: 100px;
+    width: 100%;
+    height: 968px;
+    background: #111010;
+    color: #fff;
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        padding: 70px 0;
+    }
+
+    .products-box {
+        margin: 60px 250px 80px;
+
+        .products-box-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+            height: 700px;
+
+            .grid-item-desc {
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(180deg, rgba(17, 16, 16, 0) 0%, rgba(17, 16, 16, 0.74) 72.92%);
+                backdrop-filter: blur(1.5px);
+                /* Note: backdrop-filter has minimal browser support */
+
+                border-radius: 0px 0px 20px 20px;
+
+                &__title {
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 24px;
+                }
+
+                &__desc {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 16px;
+                }
+            }
+
+            .grid-item-1 {
+                grid-area: 1 / 1 / 3 / 2;
+                max-width: 454px;
+                max-height: 700px;
+                background-image: url('/src/assets/photos/products/bedroom.svg');
+                background-repeat: no-repeat;
+                position: relative;
+                border-radius: 20px;
+            }
+
+            .grid-item-2 {
+                grid-area: 1 / 2 / 2 / 3;
+                max-width: 454px;
+                max-height: 335px;
+                background-image: url('/src/assets/photos/products/bathroom.svg');
+                background-repeat: no-repeat;
+                position: relative;
+                border-radius: 20px;
+            }
+
+            .grid-item-3 {
+                grid-area: 1 / 3 / 2 / 4;
+                max-width: 454px;
+                max-height: 335px;
+                background-image: url('/src/assets/photos/products/outdoor.svg');
+                background-repeat: no-repeat;
+                position: relative;
+                border-radius: 20px;
+            }
+
+            .grid-item-4 {
+                grid-area: 2 / 2 / 3 / 4;
+                max-width: 938px;
+                max-height: 335px;
+                background-image: url('/src/assets/photos/products/kitchen.svg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-radius: 20px;
+            }
+        }
+    }
+}
