@@ -7,4 +7,11 @@ import '../style/parts/_service.scss'
 import '../style/parts/_about.scss'
 
 import './header.js'
-import './collection-slider.js'
+import './sliders/swiper.js'
+
+// import Swiper and modules styles
+import 'swiper/scss';
+import 'swiper/scss/navigation';
+import 'swiper/scss/autoplay';
+
+
