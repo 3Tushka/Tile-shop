@@ -5,6 +5,7 @@ import '../style/parts/_collections.scss'
 import '../style/parts/_products.scss'
 import '../style/parts/_service.scss'
 import '../style/parts/_about.scss'
+import '../style/parts/_footer.scss'
 
 import './header.js'
 import './sliders/swiper.js'

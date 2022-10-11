@@ -1,0 +1,80 @@
+.footer {
+    background: #111010;
+    color: #fff;
+    padding: 68px 0 12px;
+
+    .flex-box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .flex-box-social {
+            display: flex;
+            flex-direction: column;
+
+            .logo {
+                font-size: 60px;
+                font-weight: 600;
+                margin-bottom: 50px;
+            }
+
+            .media-title {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 150%;
+                text-transform: capitalize;
+            }
+
+            .media-flex {
+                display: flex;
+                justify-content: flex-start;
+
+                .media-flex-item {
+                    margin: 15px 15px 0 0;
+                }
+            }
+
+            .copyright {
+                font-weight: 400;
+                font-size: 9px;
+                line-height: 9px;
+                letter-spacing: 0.183333px;
+            }
+        }
+
+        .flex-box-products {
+            display: flex;
+            flex-direction: column;
+
+            .products-title {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 150%;
+                text-transform: capitalize;
+            }
+
+            .products-list {
+
+                .products-list-item {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 200%;
+                    text-transform: capitalize;
+                    color: #A4A4A4;
+                }
+
+                .products-list-item:hover {
+                    color: #fff;
+                    transition: all 0.6s;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .flex-box-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(auto, 1fr));
+            grid-gap: 15px;
+        }
+    }
+}

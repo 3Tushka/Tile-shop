@@ -1,34 +1,50 @@
 .about-us {
-    width: 100%;
-    height: 80vh;
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-image: url('/src/assets/backgrounds/pexels-emmanuel-ikwuegbu-8005368.jpg');
-    filter: saturate(30%);
-    color: #fff;
+    margin: 0 250px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 68px;
 
-    &__title {
-        text-align: center;
-        padding: 100px 0;
-        font-size: 50px;
-        font-weight: 600;
+    .about-us-left {
+        width: 100%;
+        height: 100%;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
     }
 
-    .about-us-desc {
+    .about-us-right {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin: 20px 293px;
 
-        &__text {
-            font-size: 25px;
-            line-height: 45px;
+        &__title {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
         }
 
-        &__subtext {
-            padding: 50px 0;
-            line-height: 35px;
-            font-size: 20px;
+        &__desc {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #3B3B3B;
+            margin-bottom: 24px;
+        }
+
+        .about-us-rigth-list {
+            padding-left: 20px;
+
+            .item {
+                list-style: disc;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 190%;
+                color: #3B3B3B;
+            }
         }
     }
 }
