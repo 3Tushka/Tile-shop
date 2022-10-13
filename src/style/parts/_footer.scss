@@ -1,5 +1,5 @@
 .footer {
-    background: #111010;
+    background: #313131;
     color: #fff;
     padding: 68px 0 12px;
 
@@ -15,7 +15,7 @@
             .logo {
                 font-size: 60px;
                 font-weight: 600;
-                margin-bottom: 50px;
+                margin-bottom: 20px;
             }
 
             .media-title {
@@ -30,7 +30,14 @@
                 justify-content: flex-start;
 
                 .media-flex-item {
+                    align-items: center;
                     margin: 15px 15px 0 0;
+                    transition: 0.2s ease all;
+                }
+
+                .media-flex-item:hover {
+                    cursor: pointer;
+                    transform: scale(1.2);
                 }
             }
 
@@ -61,11 +68,11 @@
                     line-height: 200%;
                     text-transform: capitalize;
                     color: #A4A4A4;
+                    transition: all 0.2s ease;
                 }
 
                 .products-list-item:hover {
                     color: #fff;
-                    transition: all 0.6s;
                     cursor: pointer;
                 }
             }
@@ -75,6 +82,25 @@
             display: grid;
             grid-template-columns: repeat(3, minmax(auto, 1fr));
             grid-gap: 15px;
+
+            .grid-item {
+                transition: all 0.3s ease-in-out;
+                max-width: 106px;
+                max-height: 96px;
+                border-radius: 10px;
+                overflow: hidden;
+
+                img {
+                    transition: 0.5s ease-in-out;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+                img:hover {
+                    cursor: pointer;
+                    transform: scale(1.15);
+                }
+            }
         }
     }
 }
