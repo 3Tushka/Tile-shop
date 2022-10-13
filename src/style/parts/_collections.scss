@@ -79,3 +79,17 @@
 .swiper-pagination {
     background-color: aqua;
 }
+
+@media (min-width: 320px) and (max-width:768px) {
+
+    .collection-wrapper {
+        margin: 0 20px 20px;
+    }
+
+}
+
+@media (min-width:769px) {
+    .collection-wrapper {
+        margin: 0 5%;
+    }
+}
