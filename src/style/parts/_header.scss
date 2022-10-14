@@ -28,6 +28,8 @@
 
             .nav-item {
                 margin-left: 5rem;
+                max-width: 100%;
+                min-width: 40px;
 
                 .nav-link {
                     font-style: normal;
