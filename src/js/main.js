@@ -8,7 +8,6 @@ import '../style/parts/_service.scss'
 import '../style/parts/_about.scss'
 import '../style/parts/_footer.scss'
 
-import './header.js'
 import './sliders/swiper.js'
 
 // import Swiper and modules styles
