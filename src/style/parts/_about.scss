@@ -75,3 +75,24 @@
         gap: 30px;
     }
 }
+
+@media (min-width: 769px) and (max-width:1200px) {
+
+    .about-us {
+        margin: 0 50px;
+
+        .about-us-right {
+            width: 600px;
+        }
+    }
+}
+
+@media (min-width:1201px) and (max-width:1440px) {
+    .about-us {
+        margin: 0 50px;
+
+        .about-us-right {
+            width: 1000px;
+        }
+    }
+}

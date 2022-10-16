@@ -1,5 +1,6 @@
 .promo {
-    margin: 180px 135px;
+    margin: 0 135px;
+    padding: 100px 0;
     color: #fff;
 
     .promo-box {
@@ -54,7 +55,7 @@
 
 @media (min-width:320px) and (max-width:425px) {
     .promo {
-        margin: 180px 50px;
+        margin: 60px 50px;
 
         .promo-box {
             display: inline;
@@ -69,6 +70,11 @@
 
 @media (min-width:426px) and (max-width:768px) {
     .promo {
-        margin: 180px 50px;
+        text-align: center;
+
+        .promo-box {
+            flex-direction: column;
+            gap: 30px;
+        }
     }
 }

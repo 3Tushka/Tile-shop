@@ -90,19 +90,30 @@
             font-weight: 700;
             font-size: 16px;
             line-height: 19px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            border-color: #686868;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
         }
     }
-}
-
-
-.swiper-pagination {
-    background-color: aqua;
 }
 
 @media (min-width: 320px) and (max-width:768px) {
 
     .collection-wrapper {
         margin: 0 20px 20px;
+    }
+
+    .swiper {
+        .swiper-slide {
+            .collection-item-title {
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
     }
 
 }

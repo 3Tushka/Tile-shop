@@ -180,3 +180,25 @@
         }
     }
 }
+
+@media (min-width: 769px) and (max-width:1440px) {
+    .products {
+
+        .products-grid {
+            padding: 0 40px 20px;
+
+            .products-grid-item:hover {
+
+                .products-desc {
+                    .products-name {
+                        font-size: 30px;
+                    }
+
+                    .products-location {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
